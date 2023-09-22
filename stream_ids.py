@@ -10,11 +10,9 @@ Original file is located at
 import pickle
 import streamlit as st
 
-from google.colab import drive
-drive.mount('/content/drive')
 
 # membaca model
-ids_model = pickle.load(open('/content/drive/MyDrive/Persiapan Skripsi/Bismillah/IDS/model.pkl', 'rb'))
+ids_model = pickle.load(open('model.pkl', 'rb'))
 
 #judul web
 st.title('Prediksi Serangan Jaringan')
