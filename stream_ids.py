@@ -7,10 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1jvzfxs93Amf5S-gPMbQseeh8NT8z6Jma
 """
 
-!pip install streamlit -q
-
-!wget -q -O - ipv4.icanhazip.com
-
 import pickle
 import streamlit as st
 
